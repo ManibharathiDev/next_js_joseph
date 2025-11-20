@@ -1,0 +1,41 @@
+body{
+    width: 80%;
+    margin:0 auto;
+    padding: 50px;
+}
+
+.mainBg{
+    background-color: aqua;
+}
+
+.leftBg{
+    background-color: red;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.rightBg{
+    background-color: blue;
+    width:50%;
+    float: right;
+    height:500px;
+}
+
+.redBg{
+    background-color: red;
+    width: 30%;
+}
+
+.greenBg{
+    background-color: green;
+    width: 70%;
+}
+
+.parentBg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+}

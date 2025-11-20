@@ -1,0 +1,40 @@
+body{
+    width: 80%;
+    margin:0 auto;
+    padding: 50px;
+}
+h1{
+    background-color: black;
+    width:100%;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    padding: 15px;
+    border: 3px dotted red;
+}
+
+.myHeading{
+    border:3px solid rgb(53, 3, 69);
+}
+
+.text-red{
+    color:red;
+}
+
+.font-size-45{
+    font-size: 45px;
+}
+
+.qtree_heading{
+    font-size:16px;
+}
+
+.qtree_subheading{
+    font-size:14px;
+}

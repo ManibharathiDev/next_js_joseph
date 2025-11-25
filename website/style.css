@@ -8,7 +8,7 @@ body{
 }
 
 .logoTop{
-    background-color: #3D3D3D;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .logoTops{
@@ -74,4 +74,94 @@ body{
 
 .logo-left{
     width:30%;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-image img{
+    width: 100%;
+}
+
+.headers{
+    position: absolute;
+}
+
+.slider-bottom{
+        width: 100%;
+    background: linear-gradient(-45deg, #0d4969, #0c9786);
+    height: auto;
+    overflow: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* .mid-content{
+    float:left;
+    width:30%;
+} */
+
+.slider-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width:70%;
+    margin:0 auto;
+}
+
+.sm-left{
+    /* float:left; */
+    color: white;
+}
+
+.sm-left h3,.sm-left h4{
+    margin:0;
+    color: white;
+}
+
+.sm-left .fas{
+    font-size: 50px;
+}
+
+.mid-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear-fix{
+    height: 80px;
+    width: 100%;
+}
+
+.heading-bg{
+     width: 100%;
+    background: linear-gradient(-45deg, #0d4969, #0c9786);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.main-heading{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
 }

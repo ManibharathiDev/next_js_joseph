@@ -39,3 +39,7 @@ body{
     align-content: stretch;
     justify-content: space-between;
 }
+
+.menu{
+    list-style-type: none;
+}

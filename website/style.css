@@ -165,3 +165,115 @@ body{
     margin-bottom: 15px;
     font-family: "Roboto", sans-serif;
 }
+
+.bg-review{
+    background: url('bg-review.jpg');
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.bg-review h2{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-review-left{
+    width:70%;
+}
+
+.bg-review-right{
+    width:30%;
+}
+
+.review-bgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-bg{
+    width:20%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.review-bg img{
+    width: 100%;
+}
+
+.review-bg h2{
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.bg-review-forms{
+    background-color: white;
+    height:auto;
+    margin-left: 15px;
+}
+
+.bg-review-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header{
+    background-color: #0B85C6;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.review-forms{
+    padding: 20px;
+}
+
+.review-forms input{
+        width: 100%;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+}
+
+.review-forms textarea{
+    outline: none;
+    border:none;
+    width: 100%;
+    height: 100px;
+}
+
+.review-forms input:focus,.review-forms textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.form-bg{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.form-bg span{
+    color: gray;
+    margin-top: 8px;
+}
+
+.form-clear-fix{
+    height: 20px;
+}
+
+.submit-btn{
+    background-color: #EC5252;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #570b0b;
+}
